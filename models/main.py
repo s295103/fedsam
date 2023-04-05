@@ -42,8 +42,8 @@ def main():
         print("Alpha:", alpha)
 
     # Setup GPU
-    device = torch.device(args.device if torch.cuda.is_available else 'cpu')
-    print("Using device:", torch.cuda.get_device_name(device) if device != 'cpu' else 'cpu')
+    device = torch.device(args.device if torch.cuda.is_available() else 'cpu')
+    print("Using device:", torch.cuda.get_device_name(device) if device.type != 'cpu' else 'cpu')
 
     run, job_name = init_wandb(args, alpha, run_id=args.wandb_run_id)
 

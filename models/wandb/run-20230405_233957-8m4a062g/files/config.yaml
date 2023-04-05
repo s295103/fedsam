@@ -1,0 +1,142 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.14.0
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.10.6
+    start_time: 1680730797.778486
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 14
+      - 16
+      - 17
+      - 23
+      - 37
+      4: 3.10.6
+      5: 0.14.0
+      8:
+      - 5
+      10:
+      - 3
+algorithm:
+  desc: null
+  value: fedopt
+alpha:
+  desc: null
+  value: 100
+batch_size:
+  desc: null
+  value: 128
+client_algorithm:
+  desc: null
+  value: null
+clients_per_round:
+  desc: null
+  value: 5
+cutout:
+  desc: null
+  value: false
+dataset:
+  desc: null
+  value: cifar10
+device:
+  desc: null
+  value: cuda:0
+eta:
+  desc: null
+  value: null
+eval_every:
+  desc: null
+  value: 100
+load:
+  desc: null
+  value: false
+lr:
+  desc: null
+  value: 0.1
+metrics_dir:
+  desc: null
+  value: metrics
+metrics_name:
+  desc: null
+  value: metrics
+minibatch:
+  desc: null
+  value: null
+mixup:
+  desc: null
+  value: false
+mixup_alpha:
+  desc: null
+  value: 1.0
+model:
+  desc: null
+  value: resnet20gn
+momentum:
+  desc: null
+  value: 0.9
+num_epochs:
+  desc: null
+  value: 3
+num_rounds:
+  desc: null
+  value: 10000
+num_workers:
+  desc: null
+  value: 4
+restart:
+  desc: null
+  value: false
+restart_round:
+  desc: null
+  value: null
+rho:
+  desc: null
+  value: null
+seed:
+  desc: null
+  value: 0
+server_lr:
+  desc: null
+  value: 1.0
+server_momentum:
+  desc: null
+  value: 0
+server_opt:
+  desc: null
+  value: sgd
+swa:
+  desc: null
+  value: false
+swa_c:
+  desc: null
+  value: 1
+swa_lr:
+  desc: null
+  value: 0.0001
+swa_start:
+  desc: null
+  value: null
+t:
+  desc: null
+  value: large
+wandb_run_id:
+  desc: null
+  value: null
+weight_decay:
+  desc: null
+  value: 0.0001
+where_loading:
+  desc: null
+  value: init

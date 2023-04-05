@@ -1,0 +1,66 @@
+2023-04-05 23:34:30,338 INFO    StreamThr :50118 [internal.py:wandb_internal():87] W&B internal server running at pid: 50118, started at: 2023-04-05 23:34:30.337430
+2023-04-05 23:34:30,353 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: status
+2023-04-05 23:34:30,381 INFO    WriterThread:50118 [datastore.py:open_for_write():85] open: /home/bitman/Scrivania/advanced_machine_learning/fedsam/models/wandb/run-20230405_233430-kb2ntci8/run-kb2ntci8.wandb
+2023-04-05 23:34:30,383 DEBUG   SenderThread:50118 [sender.py:send():336] send: header
+2023-04-05 23:34:30,403 DEBUG   SenderThread:50118 [sender.py:send():336] send: run
+2023-04-05 23:34:30,468 INFO    SenderThread:50118 [sender.py:_maybe_setup_resume():722] checking resume status for rickymusu/fl_cifar10/kb2ntci8
+2023-04-05 23:34:32,210 INFO    SenderThread:50118 [dir_watcher.py:__init__():219] watching files in: /home/bitman/Scrivania/advanced_machine_learning/fedsam/models/wandb/run-20230405_233430-kb2ntci8/files
+2023-04-05 23:34:32,210 INFO    SenderThread:50118 [sender.py:_start_run_threads():1078] run started: kb2ntci8 with start time 1680730470.340098
+2023-04-05 23:34:32,211 DEBUG   SenderThread:50118 [sender.py:send_request():363] send_request: summary_record
+2023-04-05 23:34:32,212 INFO    SenderThread:50118 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-05 23:34:32,225 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: check_version
+2023-04-05 23:34:32,226 DEBUG   SenderThread:50118 [sender.py:send_request():363] send_request: check_version
+2023-04-05 23:34:32,563 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: run_start
+2023-04-05 23:34:32,573 DEBUG   HandlerThread:50118 [system_info.py:__init__():31] System info init
+2023-04-05 23:34:32,573 DEBUG   HandlerThread:50118 [system_info.py:__init__():46] System info init done
+2023-04-05 23:34:32,574 INFO    HandlerThread:50118 [system_monitor.py:start():183] Starting system monitor
+2023-04-05 23:34:32,576 INFO    SystemMonitor:50118 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-04-05 23:34:32,576 INFO    HandlerThread:50118 [system_monitor.py:probe():204] Collecting system info
+2023-04-05 23:34:32,580 INFO    SystemMonitor:50118 [interfaces.py:start():187] Started cpu monitoring
+2023-04-05 23:34:32,582 INFO    SystemMonitor:50118 [interfaces.py:start():187] Started disk monitoring
+2023-04-05 23:34:32,584 INFO    SystemMonitor:50118 [interfaces.py:start():187] Started memory monitoring
+2023-04-05 23:34:32,587 INFO    SystemMonitor:50118 [interfaces.py:start():187] Started network monitoring
+2023-04-05 23:34:32,593 DEBUG   HandlerThread:50118 [system_info.py:probe():195] Probing system
+2023-04-05 23:34:32,596 DEBUG   HandlerThread:50118 [system_info.py:_probe_git():180] Probing git
+2023-04-05 23:34:32,608 DEBUG   HandlerThread:50118 [system_info.py:_probe_git():188] Probing git done
+2023-04-05 23:34:32,608 DEBUG   HandlerThread:50118 [system_info.py:probe():240] Probing system done
+2023-04-05 23:34:32,608 DEBUG   HandlerThread:50118 [system_monitor.py:probe():213] {'os': 'Linux-5.19.0-38-generic-x86_64-with-glibc2.35', 'python': '3.10.6', 'heartbeatAt': '2023-04-05T21:34:32.593439', 'startedAt': '2023-04-05T21:34:30.299957', 'docker': None, 'cuda': None, 'args': ('-dataset', 'cifar10', '--num-rounds', '10000', '--eval-every', '100', '--batch-size', '128', '--num-epochs', '3', '--clients-per-round', '5', '-model', 'resnet20gn', '-lr', '0.1', '-momentum', '0.9', '--weight-decay', '0.0001', '-device', 'cuda:0', '-algorithm', 'fedopt', '--server-lr', '1', '--server-opt', 'sgd', '--num-workers', '4', '--where-loading', 'init', '-alpha', '1000'), 'state': 'running', 'program': '/home/bitman/Scrivania/advanced_machine_learning/fedsam/models/main.py', 'codePath': 'models/main.py', 'git': {'remote': 'https://github.com/s295103/fedsam.git', 'commit': '16f77ef7237c3565adaf52cf710d21d0390c544e'}, 'email': 's295103@studenti.polito.it', 'root': '/home/bitman/Scrivania/advanced_machine_learning/fedsam', 'host': 'bitman-ThinkPad-T420', 'username': 'bitman', 'executable': '/home/bitman/Scrivania/advanced_machine_learning/bin/python', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2985.37425, 'min': 800.0, 'max': 3200.0}, 'cpu_freq_per_core': [{'current': 2990.28, 'min': 800.0, 'max': 3200.0}, {'current': 2990.29, 'min': 800.0, 'max': 3200.0}, {'current': 2990.264, 'min': 800.0, 'max': 3200.0}, {'current': 2990.265, 'min': 800.0, 'max': 3200.0}], 'disk': {'total': 291.85640716552734, 'used': 73.26602172851562}, 'memory': {'total': 7.648075103759766}}
+2023-04-05 23:34:32,608 INFO    HandlerThread:50118 [system_monitor.py:probe():214] Finished collecting system info
+2023-04-05 23:34:32,608 INFO    HandlerThread:50118 [system_monitor.py:probe():217] Publishing system info
+2023-04-05 23:34:32,608 DEBUG   HandlerThread:50118 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-05 23:34:32,609 DEBUG   HandlerThread:50118 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-05 23:34:32,611 INFO    HandlerThread:50118 [system_monitor.py:probe():219] Finished publishing system info
+2023-04-05 23:34:32,623 DEBUG   SenderThread:50118 [sender.py:send():336] send: files
+2023-04-05 23:34:32,624 INFO    SenderThread:50118 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-04-05 23:34:32,643 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-05 23:34:32,645 DEBUG   SenderThread:50118 [sender.py:send_request():363] send_request: stop_status
+2023-04-05 23:34:33,162 DEBUG   SenderThread:50118 [sender.py:send():336] send: telemetry
+2023-04-05 23:34:33,162 DEBUG   SenderThread:50118 [sender.py:send():336] send: telemetry
+2023-04-05 23:34:33,163 DEBUG   SenderThread:50118 [sender.py:send():336] send: run
+2023-04-05 23:34:33,225 INFO    Thread-18 :50118 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/bitman/Scrivania/advanced_machine_learning/fedsam/models/wandb/run-20230405_233430-kb2ntci8/files/config.yaml
+2023-04-05 23:34:33,227 INFO    Thread-18 :50118 [dir_watcher.py:_on_file_created():278] file/dir created: /home/bitman/Scrivania/advanced_machine_learning/fedsam/models/wandb/run-20230405_233430-kb2ntci8/files/requirements.txt
+2023-04-05 23:34:33,230 INFO    Thread-18 :50118 [dir_watcher.py:_on_file_created():278] file/dir created: /home/bitman/Scrivania/advanced_machine_learning/fedsam/models/wandb/run-20230405_233430-kb2ntci8/files/wandb-metadata.json
+2023-04-05 23:34:33,239 INFO    Thread-18 :50118 [dir_watcher.py:_on_file_created():278] file/dir created: /home/bitman/Scrivania/advanced_machine_learning/fedsam/models/wandb/run-20230405_233430-kb2ntci8/files/wandb-summary.json
+2023-04-05 23:34:33,726 INFO    SenderThread:50118 [sender.py:send_run():955] updated run: kb2ntci8
+2023-04-05 23:34:33,726 DEBUG   SenderThread:50118 [sender.py:send():336] send: telemetry
+2023-04-05 23:34:33,733 DEBUG   SenderThread:50118 [sender.py:send():336] send: telemetry
+2023-04-05 23:34:33,913 INFO    wandb-upload_0:50118 [upload_job.py:push():138] Uploaded file /tmp/tmphwcablcbwandb/6j1rhcf7-wandb-metadata.json
+2023-04-05 23:34:34,214 INFO    Thread-18 :50118 [dir_watcher.py:_on_file_created():278] file/dir created: /home/bitman/Scrivania/advanced_machine_learning/fedsam/models/wandb/run-20230405_233430-kb2ntci8/files/output.log
+2023-04-05 23:34:35,749 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: status_report
+2023-04-05 23:34:36,217 INFO    Thread-18 :50118 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/bitman/Scrivania/advanced_machine_learning/fedsam/models/wandb/run-20230405_233430-kb2ntci8/files/output.log
+2023-04-05 23:34:40,743 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: status_report
+2023-04-05 23:34:45,745 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: status_report
+2023-04-05 23:34:47,639 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-05 23:34:47,641 DEBUG   SenderThread:50118 [sender.py:send_request():363] send_request: stop_status
+2023-04-05 23:34:51,661 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: status_report
+2023-04-05 23:34:56,663 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: status_report
+2023-04-05 23:35:01,680 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: status_report
+2023-04-05 23:35:02,249 INFO    Thread-18 :50118 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/bitman/Scrivania/advanced_machine_learning/fedsam/models/wandb/run-20230405_233430-kb2ntci8/files/config.yaml
+2023-04-05 23:35:02,642 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-05 23:35:02,644 DEBUG   SenderThread:50118 [sender.py:send_request():363] send_request: stop_status
+2023-04-05 23:35:08,151 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: status_report
+2023-04-05 23:35:13,153 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: status_report
+2023-04-05 23:35:17,642 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-05 23:35:17,644 DEBUG   SenderThread:50118 [sender.py:send_request():363] send_request: stop_status
+2023-04-05 23:35:18,324 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: status_report
+2023-04-05 23:35:23,327 DEBUG   HandlerThread:50118 [handler.py:handle_request():144] handle_request: status_report

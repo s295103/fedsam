@@ -1,0 +1,10 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+############################## cifar10.resnet20gn ##############################
+Running experiment with server servers.fedopt_server and client clients.client
+Verify client and server: <class 'clients.client.Client'> <class 'servers.fedopt_server.FedOptServer'>
+Server optimizer: sgd with lr 1.0 and momentum 0
+Start round: 0
+Clients in Total: 0 training clients and 1 test clients
+--- Random Initialization ---
+test_accuracy: 10.001, 10th percentile: 10.001, 50th percentile: 10.001, 90th percentile 10.001

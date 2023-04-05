@@ -1,0 +1,92 @@
+{
+    "os": "Linux-5.19.0-38-generic-x86_64-with-glibc2.35",
+    "python": "3.10.6",
+    "heartbeatAt": "2023-04-05T21:35:49.757082",
+    "startedAt": "2023-04-05T21:35:47.721783",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-dataset",
+        "cifar10",
+        "--num-rounds",
+        "10000",
+        "--eval-every",
+        "100",
+        "--batch-size",
+        "128",
+        "--num-epochs",
+        "3",
+        "--clients-per-round",
+        "5",
+        "-model",
+        "resnet20gn",
+        "-lr",
+        "0.1",
+        "-momentum",
+        "0.9",
+        "--weight-decay",
+        "0.0001",
+        "-device",
+        "cuda:0",
+        "-algorithm",
+        "fedopt",
+        "--server-lr",
+        "1",
+        "--server-opt",
+        "sgd",
+        "--num-workers",
+        "4",
+        "--where-loading",
+        "init",
+        "-alpha",
+        "1000"
+    ],
+    "state": "running",
+    "program": "/home/bitman/Scrivania/advanced_machine_learning/fedsam/models/main.py",
+    "codePath": "models/main.py",
+    "git": {
+        "remote": "https://github.com/s295103/fedsam.git",
+        "commit": "16f77ef7237c3565adaf52cf710d21d0390c544e"
+    },
+    "email": "s295103@studenti.polito.it",
+    "root": "/home/bitman/Scrivania/advanced_machine_learning/fedsam",
+    "host": "bitman-ThinkPad-T420",
+    "username": "bitman",
+    "executable": "/home/bitman/Scrivania/advanced_machine_learning/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2997.6440000000002,
+        "min": 800.0,
+        "max": 3200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2990.294,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2990.294,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2990.29,
+            "min": 800.0,
+            "max": 3200.0
+        },
+        {
+            "current": 2990.275,
+            "min": 800.0,
+            "max": 3200.0
+        }
+    ],
+    "disk": {
+        "total": 291.85640716552734,
+        "used": 73.26612091064453
+    },
+    "memory": {
+        "total": 7.648075103759766
+    }
+}
