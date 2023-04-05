@@ -71,3 +71,9 @@ class ClientModel(nn.Module):
         out = out.view(out.size(0), -1)
         out = self.fc(out)
         return out
+
+    def model_size(self):
+        tot_size = 0
+        for param in self.parameters():
+            tot_size += param.size()[0]
+        return tot_size
