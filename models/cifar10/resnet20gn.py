@@ -47,6 +47,7 @@ class ClientModel(nn.Module):
         self.layer3 = self.make_layer(64, LAYERS[2], 2)
         self.avg_pool = nn.AvgPool2d(8)
         self.fc = nn.Linear(64, num_classes)
+        self.size = self.model_size()
 
     def make_layer(self, out_channels, blocks, stride=1):
         downsample = None
