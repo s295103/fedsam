@@ -12,3 +12,7 @@ models/sent140/embs.json
 _build/
 _templates/
 autodoc/
+data/cifar10/preprocessing/cifar-10-batches-py
+data/cifar10/data
+data/cifar100/preprocessing/cifar-100-python
+data/cifar100/data

@@ -21,8 +21,8 @@ from utils.cutout import Cutout
 from utils.main_utils import *
 from utils.model_utils import read_data
 
-os.environ["WANDB_API_KEY"] = ""
-os.environ["WANDB_MODE"] = "offline"
+os.environ["WANDB_API_KEY"] = "f2b64bc6a39ff06e106610fcc0b9141047bc4c71"
+os.environ["WANDB_MODE"] = "online"
 
 def main():
     args = parse_args()
