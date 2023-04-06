@@ -1,0 +1,740 @@
+train_accuracy: 0.94, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 4.98814, 10th percentile: 3.91838, 50th percentile: 4.92336, 90th percentile 6.14013
+test_accuracy: 0.890089, 10th percentile: 0.890089, 50th percentile: 0.890089, 90th percentile 0.890089
+test_loss: 4.98318, 10th percentile: 4.98318, 50th percentile: 4.98318, 90th percentile 4.98318
+--- Round 1 of 500: Training 5 Clients ---
+--- Round 2 of 500: Training 5 Clients ---
+--- Round 3 of 500: Training 5 Clients ---
+--- Round 4 of 500: Training 5 Clients ---
+--- Round 5 of 500: Training 5 Clients ---
+--- Round 6 of 500: Training 5 Clients ---
+--- Round 7 of 500: Training 5 Clients ---
+--- Round 8 of 500: Training 5 Clients ---
+--- Round 9 of 500: Training 5 Clients ---
+--- Round 10 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.21535, 10th percentile: 5.87694, 50th percentile: 6.36977, 90th percentile 6.70006
+test_accuracy: 0.990099, 10th percentile: 0.990099, 50th percentile: 0.990099, 90th percentile 0.990099
+test_loss: 6.13298, 10th percentile: 6.13298, 50th percentile: 6.13298, 90th percentile 6.13298
+--- Round 11 of 500: Training 5 Clients ---
+--- Round 12 of 500: Training 5 Clients ---
+--- Round 13 of 500: Training 5 Clients ---
+--- Round 14 of 500: Training 5 Clients ---
+--- Round 15 of 500: Training 5 Clients ---
+--- Round 16 of 500: Training 5 Clients ---
+--- Round 17 of 500: Training 5 Clients ---
+--- Round 18 of 500: Training 5 Clients ---
+--- Round 19 of 500: Training 5 Clients ---
+--- Round 20 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.53763, 10th percentile: 5.55218, 50th percentile: 6.79657, 90th percentile 7.49491
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 6.4595, 10th percentile: 6.4595, 50th percentile: 6.4595, 90th percentile 6.4595
+--- Round 21 of 500: Training 5 Clients ---
+--- Round 22 of 500: Training 5 Clients ---
+--- Round 23 of 500: Training 5 Clients ---
+--- Round 24 of 500: Training 5 Clients ---
+--- Round 25 of 500: Training 5 Clients ---
+--- Round 26 of 500: Training 5 Clients ---
+--- Round 27 of 500: Training 5 Clients ---
+--- Round 28 of 500: Training 5 Clients ---
+--- Round 29 of 500: Training 5 Clients ---
+--- Round 30 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.11837, 10th percentile: 4.73306, 50th percentile: 5.36841, 90th percentile 5.58072
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.10325, 10th percentile: 5.10325, 50th percentile: 5.10325, 90th percentile 5.10325
+--- Round 31 of 500: Training 5 Clients ---
+--- Round 32 of 500: Training 5 Clients ---
+--- Round 33 of 500: Training 5 Clients ---
+--- Round 34 of 500: Training 5 Clients ---
+--- Round 35 of 500: Training 5 Clients ---
+--- Round 36 of 500: Training 5 Clients ---
+--- Round 37 of 500: Training 5 Clients ---
+--- Round 38 of 500: Training 5 Clients ---
+--- Round 39 of 500: Training 5 Clients ---
+--- Round 40 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.51311, 10th percentile: 4.97814, 50th percentile: 5.70247, 90th percentile 6.19175
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.5397, 10th percentile: 5.5397, 50th percentile: 5.5397, 90th percentile 5.5397
+--- Round 41 of 500: Training 5 Clients ---
+--- Round 42 of 500: Training 5 Clients ---
+--- Round 43 of 500: Training 5 Clients ---
+--- Round 44 of 500: Training 5 Clients ---
+--- Round 45 of 500: Training 5 Clients ---
+--- Round 46 of 500: Training 5 Clients ---
+--- Round 47 of 500: Training 5 Clients ---
+--- Round 48 of 500: Training 5 Clients ---
+--- Round 49 of 500: Training 5 Clients ---
+--- Round 50 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.9631, 10th percentile: 5.01461, 50th percentile: 6.24362, 90th percentile 6.82759
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.98994, 10th percentile: 5.98994, 50th percentile: 5.98994, 90th percentile 5.98994
+--- Round 51 of 500: Training 5 Clients ---
+--- Round 52 of 500: Training 5 Clients ---
+--- Round 53 of 500: Training 5 Clients ---
+--- Round 54 of 500: Training 5 Clients ---
+--- Round 55 of 500: Training 5 Clients ---
+--- Round 56 of 500: Training 5 Clients ---
+--- Round 57 of 500: Training 5 Clients ---
+--- Round 58 of 500: Training 5 Clients ---
+--- Round 59 of 500: Training 5 Clients ---
+--- Round 60 of 500: Training 5 Clients ---
+train_accuracy: 1.036, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.53957, 10th percentile: 4.19913, 50th percentile: 5.89829, 90th percentile 6.39998
+test_accuracy: 0.950095, 10th percentile: 0.950095, 50th percentile: 0.950095, 90th percentile 0.950095
+test_loss: 5.54449, 10th percentile: 5.54449, 50th percentile: 5.54449, 90th percentile 5.54449
+--- Round 61 of 500: Training 5 Clients ---
+--- Round 62 of 500: Training 5 Clients ---
+--- Round 63 of 500: Training 5 Clients ---
+--- Round 64 of 500: Training 5 Clients ---
+--- Round 65 of 500: Training 5 Clients ---
+--- Round 66 of 500: Training 5 Clients ---
+--- Round 67 of 500: Training 5 Clients ---
+--- Round 68 of 500: Training 5 Clients ---
+--- Round 69 of 500: Training 5 Clients ---
+--- Round 70 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.79078, 10th percentile: 4.38841, 50th percentile: 6.0272, 90th percentile 6.89384
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.78512, 10th percentile: 5.78512, 50th percentile: 5.78512, 90th percentile 5.78512
+--- Round 71 of 500: Training 5 Clients ---
+--- Round 72 of 500: Training 5 Clients ---
+--- Round 73 of 500: Training 5 Clients ---
+--- Round 74 of 500: Training 5 Clients ---
+--- Round 75 of 500: Training 5 Clients ---
+--- Round 76 of 500: Training 5 Clients ---
+--- Round 77 of 500: Training 5 Clients ---
+--- Round 78 of 500: Training 5 Clients ---
+--- Round 79 of 500: Training 5 Clients ---
+--- Round 80 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.84461, 10th percentile: 4.40086, 50th percentile: 6.38684, 90th percentile 6.89592
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.81907, 10th percentile: 5.81907, 50th percentile: 5.81907, 90th percentile 5.81907
+--- Round 81 of 500: Training 5 Clients ---
+--- Round 82 of 500: Training 5 Clients ---
+--- Round 83 of 500: Training 5 Clients ---
+--- Round 84 of 500: Training 5 Clients ---
+--- Round 85 of 500: Training 5 Clients ---
+--- Round 86 of 500: Training 5 Clients ---
+--- Round 87 of 500: Training 5 Clients ---
+--- Round 88 of 500: Training 5 Clients ---
+--- Round 89 of 500: Training 5 Clients ---
+--- Round 90 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.40822, 10th percentile: 4.43555, 50th percentile: 6.73425, 90th percentile 7.37012
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 6.47233, 10th percentile: 6.47233, 50th percentile: 6.47233, 90th percentile 6.47233
+--- Round 91 of 500: Training 5 Clients ---
+--- Round 92 of 500: Training 5 Clients ---
+--- Round 93 of 500: Training 5 Clients ---
+--- Round 94 of 500: Training 5 Clients ---
+--- Round 95 of 500: Training 5 Clients ---
+--- Round 96 of 500: Training 5 Clients ---
+--- Round 97 of 500: Training 5 Clients ---
+--- Round 98 of 500: Training 5 Clients ---
+--- Round 99 of 500: Training 5 Clients ---
+--- Round 100 of 500: Training 5 Clients ---
+train_accuracy: 1.022, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.61697, 10th percentile: 5.76171, 50th percentile: 6.97226, 90th percentile 7.65009
+test_accuracy: 1.0101, 10th percentile: 1.0101, 50th percentile: 1.0101, 90th percentile 1.0101
+test_loss: 6.66604, 10th percentile: 6.66604, 50th percentile: 6.66604, 90th percentile 6.66604
+--- Round 101 of 500: Training 5 Clients ---
+--- Round 102 of 500: Training 5 Clients ---
+--- Round 103 of 500: Training 5 Clients ---
+--- Round 104 of 500: Training 5 Clients ---
+--- Round 105 of 500: Training 5 Clients ---
+--- Round 106 of 500: Training 5 Clients ---
+--- Round 107 of 500: Training 5 Clients ---
+--- Round 108 of 500: Training 5 Clients ---
+--- Round 109 of 500: Training 5 Clients ---
+--- Round 110 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.82604, 10th percentile: 4.01761, 50th percentile: 6.20575, 90th percentile 6.87002
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.83137, 10th percentile: 5.83137, 50th percentile: 5.83137, 90th percentile 5.83137
+--- Round 111 of 500: Training 5 Clients ---
+--- Round 112 of 500: Training 5 Clients ---
+--- Round 113 of 500: Training 5 Clients ---
+--- Round 114 of 500: Training 5 Clients ---
+--- Round 115 of 500: Training 5 Clients ---
+--- Round 116 of 500: Training 5 Clients ---
+--- Round 117 of 500: Training 5 Clients ---
+--- Round 118 of 500: Training 5 Clients ---
+--- Round 119 of 500: Training 5 Clients ---
+--- Round 120 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.67308, 10th percentile: 4.93009, 50th percentile: 7.10892, 90th percentile 7.77858
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 6.87117, 10th percentile: 6.87117, 50th percentile: 6.87117, 90th percentile 6.87117
+--- Round 121 of 500: Training 5 Clients ---
+--- Round 122 of 500: Training 5 Clients ---
+--- Round 123 of 500: Training 5 Clients ---
+--- Round 124 of 500: Training 5 Clients ---
+--- Round 125 of 500: Training 5 Clients ---
+--- Round 126 of 500: Training 5 Clients ---
+--- Round 127 of 500: Training 5 Clients ---
+--- Round 128 of 500: Training 5 Clients ---
+--- Round 129 of 500: Training 5 Clients ---
+--- Round 130 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.34581, 10th percentile: 4.22724, 50th percentile: 5.52522, 90th percentile 6.44512
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.3412, 10th percentile: 5.3412, 50th percentile: 5.3412, 90th percentile 5.3412
+--- Round 131 of 500: Training 5 Clients ---
+--- Round 132 of 500: Training 5 Clients ---
+--- Round 133 of 500: Training 5 Clients ---
+--- Round 134 of 500: Training 5 Clients ---
+--- Round 135 of 500: Training 5 Clients ---
+--- Round 136 of 500: Training 5 Clients ---
+--- Round 137 of 500: Training 5 Clients ---
+--- Round 138 of 500: Training 5 Clients ---
+--- Round 139 of 500: Training 5 Clients ---
+--- Round 140 of 500: Training 5 Clients ---
+train_accuracy: 0.986, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.35496, 10th percentile: 3.99333, 50th percentile: 5.43624, 90th percentile 6.63755
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.33285, 10th percentile: 5.33285, 50th percentile: 5.33285, 90th percentile 5.33285
+--- Round 141 of 500: Training 5 Clients ---
+--- Round 142 of 500: Training 5 Clients ---
+--- Round 143 of 500: Training 5 Clients ---
+--- Round 144 of 500: Training 5 Clients ---
+--- Round 145 of 500: Training 5 Clients ---
+--- Round 146 of 500: Training 5 Clients ---
+--- Round 147 of 500: Training 5 Clients ---
+--- Round 148 of 500: Training 5 Clients ---
+--- Round 149 of 500: Training 5 Clients ---
+--- Round 150 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.43286, 10th percentile: 4.29643, 50th percentile: 5.64, 90th percentile 6.36635
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.49082, 10th percentile: 5.49082, 50th percentile: 5.49082, 90th percentile 5.49082
+--- Round 151 of 500: Training 5 Clients ---
+--- Round 152 of 500: Training 5 Clients ---
+--- Round 153 of 500: Training 5 Clients ---
+--- Round 154 of 500: Training 5 Clients ---
+--- Round 155 of 500: Training 5 Clients ---
+--- Round 156 of 500: Training 5 Clients ---
+--- Round 157 of 500: Training 5 Clients ---
+--- Round 158 of 500: Training 5 Clients ---
+--- Round 159 of 500: Training 5 Clients ---
+--- Round 160 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.98594, 10th percentile: 4.43182, 50th percentile: 6.30467, 90th percentile 7.26495
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 6.09188, 10th percentile: 6.09188, 50th percentile: 6.09188, 90th percentile 6.09188
+--- Round 161 of 500: Training 5 Clients ---
+--- Round 162 of 500: Training 5 Clients ---
+--- Round 163 of 500: Training 5 Clients ---
+--- Round 164 of 500: Training 5 Clients ---
+--- Round 165 of 500: Training 5 Clients ---
+--- Round 166 of 500: Training 5 Clients ---
+--- Round 167 of 500: Training 5 Clients ---
+--- Round 168 of 500: Training 5 Clients ---
+--- Round 169 of 500: Training 5 Clients ---
+--- Round 170 of 500: Training 5 Clients ---
+train_accuracy: 1.03, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.83993, 10th percentile: 4.1963, 50th percentile: 6.03706, 90th percentile 7.34785
+test_accuracy: 1.0301, 10th percentile: 1.0301, 50th percentile: 1.0301, 90th percentile 1.0301
+test_loss: 5.91738, 10th percentile: 5.91738, 50th percentile: 5.91738, 90th percentile 5.91738
+--- Round 171 of 500: Training 5 Clients ---
+--- Round 172 of 500: Training 5 Clients ---
+--- Round 173 of 500: Training 5 Clients ---
+--- Round 174 of 500: Training 5 Clients ---
+--- Round 175 of 500: Training 5 Clients ---
+--- Round 176 of 500: Training 5 Clients ---
+--- Round 177 of 500: Training 5 Clients ---
+--- Round 178 of 500: Training 5 Clients ---
+--- Round 179 of 500: Training 5 Clients ---
+--- Round 180 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.6046, 10th percentile: 4.34755, 50th percentile: 5.78301, 90th percentile 6.79398
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.63349, 10th percentile: 5.63349, 50th percentile: 5.63349, 90th percentile 5.63349
+--- Round 181 of 500: Training 5 Clients ---
+--- Round 182 of 500: Training 5 Clients ---
+--- Round 183 of 500: Training 5 Clients ---
+--- Round 184 of 500: Training 5 Clients ---
+--- Round 185 of 500: Training 5 Clients ---
+--- Round 186 of 500: Training 5 Clients ---
+--- Round 187 of 500: Training 5 Clients ---
+--- Round 188 of 500: Training 5 Clients ---
+--- Round 189 of 500: Training 5 Clients ---
+--- Round 190 of 500: Training 5 Clients ---
+train_accuracy: 0.992, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.27912, 10th percentile: 5.14888, 50th percentile: 6.49714, 90th percentile 7.53246
+test_accuracy: 1.14011, 10th percentile: 1.14011, 50th percentile: 1.14011, 90th percentile 1.14011
+test_loss: 6.17245, 10th percentile: 6.17245, 50th percentile: 6.17245, 90th percentile 6.17245
+--- Round 191 of 500: Training 5 Clients ---
+--- Round 192 of 500: Training 5 Clients ---
+--- Round 193 of 500: Training 5 Clients ---
+--- Round 194 of 500: Training 5 Clients ---
+--- Round 195 of 500: Training 5 Clients ---
+--- Round 196 of 500: Training 5 Clients ---
+--- Round 197 of 500: Training 5 Clients ---
+--- Round 198 of 500: Training 5 Clients ---
+--- Round 199 of 500: Training 5 Clients ---
+--- Round 200 of 500: Training 5 Clients ---
+train_accuracy: 1.024, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.04148, 10th percentile: 4.60201, 50th percentile: 6.39203, 90th percentile 6.95882
+test_accuracy: 0.950095, 10th percentile: 0.950095, 50th percentile: 0.950095, 90th percentile 0.950095
+test_loss: 6.07306, 10th percentile: 6.07306, 50th percentile: 6.07306, 90th percentile 6.07306
+--- Round 201 of 500: Training 5 Clients ---
+--- Round 202 of 500: Training 5 Clients ---
+--- Round 203 of 500: Training 5 Clients ---
+--- Round 204 of 500: Training 5 Clients ---
+--- Round 205 of 500: Training 5 Clients ---
+--- Round 206 of 500: Training 5 Clients ---
+--- Round 207 of 500: Training 5 Clients ---
+--- Round 208 of 500: Training 5 Clients ---
+--- Round 209 of 500: Training 5 Clients ---
+--- Round 210 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.68066, 10th percentile: 4.34718, 50th percentile: 6.11173, 90th percentile 6.72256
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.68131, 10th percentile: 5.68131, 50th percentile: 5.68131, 90th percentile 5.68131
+--- Round 211 of 500: Training 5 Clients ---
+--- Round 212 of 500: Training 5 Clients ---
+--- Round 213 of 500: Training 5 Clients ---
+--- Round 214 of 500: Training 5 Clients ---
+--- Round 215 of 500: Training 5 Clients ---
+--- Round 216 of 500: Training 5 Clients ---
+--- Round 217 of 500: Training 5 Clients ---
+--- Round 218 of 500: Training 5 Clients ---
+--- Round 219 of 500: Training 5 Clients ---
+--- Round 220 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.35426, 10th percentile: 4.27949, 50th percentile: 5.56535, 90th percentile 6.359
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.35574, 10th percentile: 5.35574, 50th percentile: 5.35574, 90th percentile 5.35574
+--- Round 221 of 500: Training 5 Clients ---
+--- Round 222 of 500: Training 5 Clients ---
+--- Round 223 of 500: Training 5 Clients ---
+--- Round 224 of 500: Training 5 Clients ---
+--- Round 225 of 500: Training 5 Clients ---
+--- Round 226 of 500: Training 5 Clients ---
+--- Round 227 of 500: Training 5 Clients ---
+--- Round 228 of 500: Training 5 Clients ---
+--- Round 229 of 500: Training 5 Clients ---
+--- Round 230 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.63614, 10th percentile: 4.18699, 50th percentile: 5.79701, 90th percentile 6.94402
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.64142, 10th percentile: 5.64142, 50th percentile: 5.64142, 90th percentile 5.64142
+--- Round 231 of 500: Training 5 Clients ---
+--- Round 232 of 500: Training 5 Clients ---
+--- Round 233 of 500: Training 5 Clients ---
+--- Round 234 of 500: Training 5 Clients ---
+--- Round 235 of 500: Training 5 Clients ---
+--- Round 236 of 500: Training 5 Clients ---
+--- Round 237 of 500: Training 5 Clients ---
+--- Round 238 of 500: Training 5 Clients ---
+--- Round 239 of 500: Training 5 Clients ---
+--- Round 240 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.12578, 10th percentile: 4.59639, 50th percentile: 6.23763, 90th percentile 7.79121
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 6.12644, 10th percentile: 6.12644, 50th percentile: 6.12644, 90th percentile 6.12644
+--- Round 241 of 500: Training 5 Clients ---
+--- Round 242 of 500: Training 5 Clients ---
+--- Round 243 of 500: Training 5 Clients ---
+--- Round 244 of 500: Training 5 Clients ---
+--- Round 245 of 500: Training 5 Clients ---
+--- Round 246 of 500: Training 5 Clients ---
+--- Round 247 of 500: Training 5 Clients ---
+--- Round 248 of 500: Training 5 Clients ---
+--- Round 249 of 500: Training 5 Clients ---
+--- Round 250 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 7.18504, 10th percentile: 5.82923, 50th percentile: 7.52363, 90th percentile 8.58834
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 7.31854, 10th percentile: 7.31854, 50th percentile: 7.31854, 90th percentile 7.31854
+--- Round 251 of 500: Training 5 Clients ---
+--- Round 252 of 500: Training 5 Clients ---
+--- Round 253 of 500: Training 5 Clients ---
+--- Round 254 of 500: Training 5 Clients ---
+--- Round 255 of 500: Training 5 Clients ---
+--- Round 256 of 500: Training 5 Clients ---
+--- Round 257 of 500: Training 5 Clients ---
+--- Round 258 of 500: Training 5 Clients ---
+--- Round 259 of 500: Training 5 Clients ---
+--- Round 260 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.03767, 10th percentile: 4.49993, 50th percentile: 6.46841, 90th percentile 6.95002
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 6.15818, 10th percentile: 6.15818, 50th percentile: 6.15818, 90th percentile 6.15818
+--- Round 261 of 500: Training 5 Clients ---
+--- Round 262 of 500: Training 5 Clients ---
+--- Round 263 of 500: Training 5 Clients ---
+--- Round 264 of 500: Training 5 Clients ---
+--- Round 265 of 500: Training 5 Clients ---
+--- Round 266 of 500: Training 5 Clients ---
+--- Round 267 of 500: Training 5 Clients ---
+--- Round 268 of 500: Training 5 Clients ---
+--- Round 269 of 500: Training 5 Clients ---
+--- Round 270 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.57224, 10th percentile: 5.12573, 50th percentile: 6.80221, 90th percentile 7.93211
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 6.70843, 10th percentile: 6.70843, 50th percentile: 6.70843, 90th percentile 6.70843
+--- Round 271 of 500: Training 5 Clients ---
+--- Round 272 of 500: Training 5 Clients ---
+--- Round 273 of 500: Training 5 Clients ---
+--- Round 274 of 500: Training 5 Clients ---
+--- Round 275 of 500: Training 5 Clients ---
+--- Round 276 of 500: Training 5 Clients ---
+--- Round 277 of 500: Training 5 Clients ---
+--- Round 278 of 500: Training 5 Clients ---
+--- Round 279 of 500: Training 5 Clients ---
+--- Round 280 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.36516, 10th percentile: 3.96334, 50th percentile: 5.5742, 90th percentile 6.58736
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.41666, 10th percentile: 5.41666, 50th percentile: 5.41666, 90th percentile 5.41666
+--- Round 281 of 500: Training 5 Clients ---
+--- Round 282 of 500: Training 5 Clients ---
+--- Round 283 of 500: Training 5 Clients ---
+--- Round 284 of 500: Training 5 Clients ---
+--- Round 285 of 500: Training 5 Clients ---
+--- Round 286 of 500: Training 5 Clients ---
+--- Round 287 of 500: Training 5 Clients ---
+--- Round 288 of 500: Training 5 Clients ---
+--- Round 289 of 500: Training 5 Clients ---
+--- Round 290 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.65149, 10th percentile: 4.97309, 50th percentile: 6.86964, 90th percentile 8.41883
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 6.79384, 10th percentile: 6.79384, 50th percentile: 6.79384, 90th percentile 6.79384
+--- Round 291 of 500: Training 5 Clients ---
+--- Round 292 of 500: Training 5 Clients ---
+--- Round 293 of 500: Training 5 Clients ---
+--- Round 294 of 500: Training 5 Clients ---
+--- Round 295 of 500: Training 5 Clients ---
+--- Round 296 of 500: Training 5 Clients ---
+--- Round 297 of 500: Training 5 Clients ---
+--- Round 298 of 500: Training 5 Clients ---
+--- Round 299 of 500: Training 5 Clients ---
+--- Round 300 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.60113, 10th percentile: 4.75118, 50th percentile: 6.76236, 90th percentile 8.17379
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 6.67041, 10th percentile: 6.67041, 50th percentile: 6.67041, 90th percentile 6.67041
+--- Round 301 of 500: Training 5 Clients ---
+--- Round 302 of 500: Training 5 Clients ---
+--- Round 303 of 500: Training 5 Clients ---
+--- Round 304 of 500: Training 5 Clients ---
+--- Round 305 of 500: Training 5 Clients ---
+--- Round 306 of 500: Training 5 Clients ---
+--- Round 307 of 500: Training 5 Clients ---
+--- Round 308 of 500: Training 5 Clients ---
+--- Round 309 of 500: Training 5 Clients ---
+--- Round 310 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.35716, 10th percentile: 3.90278, 50th percentile: 5.6044, 90th percentile 6.50267
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.37946, 10th percentile: 5.37946, 50th percentile: 5.37946, 90th percentile 5.37946
+--- Round 311 of 500: Training 5 Clients ---
+--- Round 312 of 500: Training 5 Clients ---
+--- Round 313 of 500: Training 5 Clients ---
+--- Round 314 of 500: Training 5 Clients ---
+--- Round 315 of 500: Training 5 Clients ---
+--- Round 316 of 500: Training 5 Clients ---
+--- Round 317 of 500: Training 5 Clients ---
+--- Round 318 of 500: Training 5 Clients ---
+--- Round 319 of 500: Training 5 Clients ---
+--- Round 320 of 500: Training 5 Clients ---
+train_accuracy: 1.012, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.08816, 10th percentile: 4.32508, 50th percentile: 5.2559, 90th percentile 5.80314
+test_accuracy: 1.0101, 10th percentile: 1.0101, 50th percentile: 1.0101, 90th percentile 1.0101
+test_loss: 5.08986, 10th percentile: 5.08986, 50th percentile: 5.08986, 90th percentile 5.08986
+--- Round 321 of 500: Training 5 Clients ---
+--- Round 322 of 500: Training 5 Clients ---
+--- Round 323 of 500: Training 5 Clients ---
+--- Round 324 of 500: Training 5 Clients ---
+--- Round 325 of 500: Training 5 Clients ---
+--- Round 326 of 500: Training 5 Clients ---
+--- Round 327 of 500: Training 5 Clients ---
+--- Round 328 of 500: Training 5 Clients ---
+--- Round 329 of 500: Training 5 Clients ---
+--- Round 330 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.58196, 10th percentile: 4.24229, 50th percentile: 5.86812, 90th percentile 6.65323
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.59918, 10th percentile: 5.59918, 50th percentile: 5.59918, 90th percentile 5.59918
+--- Round 331 of 500: Training 5 Clients ---
+--- Round 332 of 500: Training 5 Clients ---
+--- Round 333 of 500: Training 5 Clients ---
+--- Round 334 of 500: Training 5 Clients ---
+--- Round 335 of 500: Training 5 Clients ---
+--- Round 336 of 500: Training 5 Clients ---
+--- Round 337 of 500: Training 5 Clients ---
+--- Round 338 of 500: Training 5 Clients ---
+--- Round 339 of 500: Training 5 Clients ---
+--- Round 340 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.81929, 10th percentile: 4.49245, 50th percentile: 6.00007, 90th percentile 7.18007
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.8327, 10th percentile: 5.8327, 50th percentile: 5.8327, 90th percentile 5.8327
+--- Round 341 of 500: Training 5 Clients ---
+--- Round 342 of 500: Training 5 Clients ---
+--- Round 343 of 500: Training 5 Clients ---
+--- Round 344 of 500: Training 5 Clients ---
+--- Round 345 of 500: Training 5 Clients ---
+--- Round 346 of 500: Training 5 Clients ---
+--- Round 347 of 500: Training 5 Clients ---
+--- Round 348 of 500: Training 5 Clients ---
+--- Round 349 of 500: Training 5 Clients ---
+--- Round 350 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.53161, 10th percentile: 4.16405, 50th percentile: 5.73055, 90th percentile 6.90638
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.54319, 10th percentile: 5.54319, 50th percentile: 5.54319, 90th percentile 5.54319
+--- Round 351 of 500: Training 5 Clients ---
+--- Round 352 of 500: Training 5 Clients ---
+--- Round 353 of 500: Training 5 Clients ---
+--- Round 354 of 500: Training 5 Clients ---
+--- Round 355 of 500: Training 5 Clients ---
+--- Round 356 of 500: Training 5 Clients ---
+--- Round 357 of 500: Training 5 Clients ---
+--- Round 358 of 500: Training 5 Clients ---
+--- Round 359 of 500: Training 5 Clients ---
+--- Round 360 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.67334, 10th percentile: 5.12269, 50th percentile: 7.07799, 90th percentile 7.78693
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 6.8662, 10th percentile: 6.8662, 50th percentile: 6.8662, 90th percentile 6.8662
+--- Round 361 of 500: Training 5 Clients ---
+--- Round 362 of 500: Training 5 Clients ---
+--- Round 363 of 500: Training 5 Clients ---
+--- Round 364 of 500: Training 5 Clients ---
+--- Round 365 of 500: Training 5 Clients ---
+--- Round 366 of 500: Training 5 Clients ---
+--- Round 367 of 500: Training 5 Clients ---
+--- Round 368 of 500: Training 5 Clients ---
+--- Round 369 of 500: Training 5 Clients ---
+--- Round 370 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.61665, 10th percentile: 4.44839, 50th percentile: 5.91491, 90th percentile 6.71877
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.7107, 10th percentile: 5.7107, 50th percentile: 5.7107, 90th percentile 5.7107
+--- Round 371 of 500: Training 5 Clients ---
+--- Round 372 of 500: Training 5 Clients ---
+--- Round 373 of 500: Training 5 Clients ---
+--- Round 374 of 500: Training 5 Clients ---
+--- Round 375 of 500: Training 5 Clients ---
+--- Round 376 of 500: Training 5 Clients ---
+--- Round 377 of 500: Training 5 Clients ---
+--- Round 378 of 500: Training 5 Clients ---
+--- Round 379 of 500: Training 5 Clients ---
+--- Round 380 of 500: Training 5 Clients ---
+train_accuracy: 1.084, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.8999, 10th percentile: 4.3532, 50th percentile: 6.10658, 90th percentile 7.36782
+test_accuracy: 1.0301, 10th percentile: 1.0301, 50th percentile: 1.0301, 90th percentile 1.0301
+test_loss: 5.96834, 10th percentile: 5.96834, 50th percentile: 5.96834, 90th percentile 5.96834
+--- Round 381 of 500: Training 5 Clients ---
+--- Round 382 of 500: Training 5 Clients ---
+--- Round 383 of 500: Training 5 Clients ---
+--- Round 384 of 500: Training 5 Clients ---
+--- Round 385 of 500: Training 5 Clients ---
+--- Round 386 of 500: Training 5 Clients ---
+--- Round 387 of 500: Training 5 Clients ---
+--- Round 388 of 500: Training 5 Clients ---
+--- Round 389 of 500: Training 5 Clients ---
+--- Round 390 of 500: Training 5 Clients ---
+train_accuracy: 1.008, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.53759, 10th percentile: 4.20032, 50th percentile: 5.68972, 90th percentile 6.87077
+test_accuracy: 0.980098, 10th percentile: 0.980098, 50th percentile: 0.980098, 90th percentile 0.980098
+test_loss: 5.5518, 10th percentile: 5.5518, 50th percentile: 5.5518, 90th percentile 5.5518
+--- Round 391 of 500: Training 5 Clients ---
+--- Round 392 of 500: Training 5 Clients ---
+--- Round 393 of 500: Training 5 Clients ---
+--- Round 394 of 500: Training 5 Clients ---
+--- Round 395 of 500: Training 5 Clients ---
+--- Round 396 of 500: Training 5 Clients ---
+--- Round 397 of 500: Training 5 Clients ---
+--- Round 398 of 500: Training 5 Clients ---
+--- Round 399 of 500: Training 5 Clients ---
+--- Round 400 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.94418, 10th percentile: 4.63188, 50th percentile: 6.27994, 90th percentile 6.96113
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.90054, 10th percentile: 5.90054, 50th percentile: 5.90054, 90th percentile 5.90054
+--- Round 401 of 500: Training 5 Clients ---
+--- Round 402 of 500: Training 5 Clients ---
+--- Round 403 of 500: Training 5 Clients ---
+--- Round 404 of 500: Training 5 Clients ---
+--- Round 405 of 500: Training 5 Clients ---
+--- Round 406 of 500: Training 5 Clients ---
+--- Round 407 of 500: Training 5 Clients ---
+--- Round 408 of 500: Training 5 Clients ---
+--- Round 409 of 500: Training 5 Clients ---
+--- Round 410 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.73421, 10th percentile: 4.95634, 50th percentile: 7.29854, 90th percentile 7.92529
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 6.66123, 10th percentile: 6.66123, 50th percentile: 6.66123, 90th percentile 6.66123
+--- Round 411 of 500: Training 5 Clients ---
+--- Round 412 of 500: Training 5 Clients ---
+--- Round 413 of 500: Training 5 Clients ---
+--- Round 414 of 500: Training 5 Clients ---
+--- Round 415 of 500: Training 5 Clients ---
+--- Round 416 of 500: Training 5 Clients ---
+--- Round 417 of 500: Training 5 Clients ---
+--- Round 418 of 500: Training 5 Clients ---
+--- Round 419 of 500: Training 5 Clients ---
+--- Round 420 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.87118, 10th percentile: 4.70026, 50th percentile: 6.02529, 90th percentile 6.99059
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.87008, 10th percentile: 5.87008, 50th percentile: 5.87008, 90th percentile 5.87008
+--- Round 421 of 500: Training 5 Clients ---
+--- Round 422 of 500: Training 5 Clients ---
+--- Round 423 of 500: Training 5 Clients ---
+--- Round 424 of 500: Training 5 Clients ---
+--- Round 425 of 500: Training 5 Clients ---
+--- Round 426 of 500: Training 5 Clients ---
+--- Round 427 of 500: Training 5 Clients ---
+--- Round 428 of 500: Training 5 Clients ---
+--- Round 429 of 500: Training 5 Clients ---
+--- Round 430 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.5644, 10th percentile: 5.28418, 50th percentile: 6.82102, 90th percentile 7.92319
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 6.56662, 10th percentile: 6.56662, 50th percentile: 6.56662, 90th percentile 6.56662
+--- Round 431 of 500: Training 5 Clients ---
+--- Round 432 of 500: Training 5 Clients ---
+--- Round 433 of 500: Training 5 Clients ---
+--- Round 434 of 500: Training 5 Clients ---
+--- Round 435 of 500: Training 5 Clients ---
+--- Round 436 of 500: Training 5 Clients ---
+--- Round 437 of 500: Training 5 Clients ---
+--- Round 438 of 500: Training 5 Clients ---
+--- Round 439 of 500: Training 5 Clients ---
+--- Round 440 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.46226, 10th percentile: 3.99235, 50th percentile: 5.53652, 90th percentile 6.74629
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.46409, 10th percentile: 5.46409, 50th percentile: 5.46409, 90th percentile 5.46409
+--- Round 441 of 500: Training 5 Clients ---
+--- Round 442 of 500: Training 5 Clients ---
+--- Round 443 of 500: Training 5 Clients ---
+--- Round 444 of 500: Training 5 Clients ---
+--- Round 445 of 500: Training 5 Clients ---
+--- Round 446 of 500: Training 5 Clients ---
+--- Round 447 of 500: Training 5 Clients ---
+--- Round 448 of 500: Training 5 Clients ---
+--- Round 449 of 500: Training 5 Clients ---
+--- Round 450 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.46238, 10th percentile: 4.58568, 50th percentile: 6.82143, 90th percentile 8.19309
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 6.45252, 10th percentile: 6.45252, 50th percentile: 6.45252, 90th percentile 6.45252
+--- Round 451 of 500: Training 5 Clients ---
+--- Round 452 of 500: Training 5 Clients ---
+--- Round 453 of 500: Training 5 Clients ---
+--- Round 454 of 500: Training 5 Clients ---
+--- Round 455 of 500: Training 5 Clients ---
+--- Round 456 of 500: Training 5 Clients ---
+--- Round 457 of 500: Training 5 Clients ---
+--- Round 458 of 500: Training 5 Clients ---
+--- Round 459 of 500: Training 5 Clients ---
+--- Round 460 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.90642, 10th percentile: 4.02818, 50th percentile: 6.20878, 90th percentile 7.17457
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.91908, 10th percentile: 5.91908, 50th percentile: 5.91908, 90th percentile 5.91908
+--- Round 461 of 500: Training 5 Clients ---
+--- Round 462 of 500: Training 5 Clients ---
+--- Round 463 of 500: Training 5 Clients ---
+--- Round 464 of 500: Training 5 Clients ---
+--- Round 465 of 500: Training 5 Clients ---
+--- Round 466 of 500: Training 5 Clients ---
+--- Round 467 of 500: Training 5 Clients ---
+--- Round 468 of 500: Training 5 Clients ---
+--- Round 469 of 500: Training 5 Clients ---
+--- Round 470 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.46592, 10th percentile: 4.44362, 50th percentile: 5.61528, 90th percentile 6.51254
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.46447, 10th percentile: 5.46447, 50th percentile: 5.46447, 90th percentile 5.46447
+--- Round 471 of 500: Training 5 Clients ---
+--- Round 472 of 500: Training 5 Clients ---
+--- Round 473 of 500: Training 5 Clients ---
+--- Round 474 of 500: Training 5 Clients ---
+--- Round 475 of 500: Training 5 Clients ---
+--- Round 476 of 500: Training 5 Clients ---
+--- Round 477 of 500: Training 5 Clients ---
+--- Round 478 of 500: Training 5 Clients ---
+--- Round 479 of 500: Training 5 Clients ---
+--- Round 480 of 500: Training 5 Clients ---
+train_accuracy: 0.984, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.8253, 10th percentile: 4.41542, 50th percentile: 5.91885, 90th percentile 7.20535
+test_accuracy: 1.10011, 10th percentile: 1.10011, 50th percentile: 1.10011, 90th percentile 1.10011
+test_loss: 5.82549, 10th percentile: 5.82549, 50th percentile: 5.82549, 90th percentile 5.82549
+--- Round 481 of 500: Training 5 Clients ---
+--- Round 482 of 500: Training 5 Clients ---
+--- Round 483 of 500: Training 5 Clients ---
+--- Round 484 of 500: Training 5 Clients ---
+--- Round 485 of 500: Training 5 Clients ---
+--- Round 486 of 500: Training 5 Clients ---
+--- Round 487 of 500: Training 5 Clients ---
+--- Round 488 of 500: Training 5 Clients ---
+--- Round 489 of 500: Training 5 Clients ---
+--- Round 490 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.66094, 10th percentile: 4.19678, 50th percentile: 5.96934, 90th percentile 6.84565
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.64589, 10th percentile: 5.64589, 50th percentile: 5.64589, 90th percentile 5.64589
+--- Round 491 of 500: Training 5 Clients ---
+train_accuracy: 1.088, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.80391, 10th percentile: 3.97598, 50th percentile: 6.19485, 90th percentile 7.09186
+test_accuracy: 1.11011, 10th percentile: 1.11011, 50th percentile: 1.11011, 90th percentile 1.11011
+test_loss: 5.7785, 10th percentile: 5.7785, 50th percentile: 5.7785, 90th percentile 5.7785
+--- Round 492 of 500: Training 5 Clients ---
+train_accuracy: 0.97, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.59397, 10th percentile: 4.04226, 50th percentile: 5.83696, 90th percentile 6.84147
+test_accuracy: 0.920092, 10th percentile: 0.920092, 50th percentile: 0.920092, 90th percentile 0.920092
+test_loss: 5.57757, 10th percentile: 5.57757, 50th percentile: 5.57757, 90th percentile 5.57757
+--- Round 493 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.72252, 10th percentile: 3.99497, 50th percentile: 6.05038, 90th percentile 7.04382
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.69312, 10th percentile: 5.69312, 50th percentile: 5.69312, 90th percentile 5.69312
+--- Round 494 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.85209, 10th percentile: 5.17027, 50th percentile: 7.19761, 90th percentile 8.45441
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 6.78994, 10th percentile: 6.78994, 50th percentile: 6.78994, 90th percentile 6.78994
+--- Round 495 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.92961, 10th percentile: 4.72444, 50th percentile: 6.19538, 90th percentile 7.12938
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.89686, 10th percentile: 5.89686, 50th percentile: 5.89686, 90th percentile 5.89686
+--- Round 496 of 500: Training 5 Clients ---
+train_accuracy: 1.008, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.53909, 10th percentile: 4.16293, 50th percentile: 5.76464, 90th percentile 6.73197
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.51909, 10th percentile: 5.51909, 50th percentile: 5.51909, 90th percentile 5.51909
+--- Round 497 of 500: Training 5 Clients ---
+train_accuracy: 0.994, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.23463, 10th percentile: 3.8008, 50th percentile: 5.35874, 90th percentile 6.40272
+test_accuracy: 1.0401, 10th percentile: 1.0401, 50th percentile: 1.0401, 90th percentile 1.0401
+test_loss: 5.223, 10th percentile: 5.223, 50th percentile: 5.223, 90th percentile 5.223
+--- Round 498 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.65895, 10th percentile: 3.97001, 50th percentile: 5.78618, 90th percentile 7.04969
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 5.64013, 10th percentile: 5.64013, 50th percentile: 5.64013, 90th percentile 5.64013
+--- Round 499 of 500: Training 5 Clients ---
+train_accuracy: 0.97, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 5.68296, 10th percentile: 4.27626, 50th percentile: 5.82553, 90th percentile 6.98157
+test_accuracy: 0.990099, 10th percentile: 0.990099, 50th percentile: 0.990099, 90th percentile 0.990099
+test_loss: 5.6665, 10th percentile: 5.6665, 50th percentile: 5.6665, 90th percentile 5.6665
+--- Round 500 of 500: Training 5 Clients ---
+train_accuracy: 1, 10th percentile: 0, 50th percentile: 0, 90th percentile 0
+train_loss: 6.84954, 10th percentile: 5.02484, 50th percentile: 7.21821, 90th percentile 8.50691
+test_accuracy: 1.0001, 10th percentile: 1.0001, 50th percentile: 1.0001, 90th percentile 1.0001
+test_loss: 6.78399, 10th percentile: 6.78399, 50th percentile: 6.78399, 90th percentile 6.78399
