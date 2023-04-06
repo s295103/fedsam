@@ -180,10 +180,10 @@ def main():
             swa_n += 1
 
         ##### Test model #####
-        if (i + 1) % eval_every == 0 or (i + 1) == num_rounds or (i+1) > num_rounds - 100:  # eval every round in last 100 rounds
+        if (i + 1) % eval_every == 0 or (i + 1) == num_rounds or (i+1) > 0.98*num_rounds:  # eval every round in last 2% of rounds
             _, test_metrics = print_stats(i + 1, server, train_clients, train_client_num_samples, test_clients, test_client_num_samples,
                                                 args, fp)
-            if (i+1) > num_rounds - 100:
+            if (i+1) > 0.98*num_rounds:
                 last_accuracies.append(test_metrics[0])
 
         ### Gradients information ###
