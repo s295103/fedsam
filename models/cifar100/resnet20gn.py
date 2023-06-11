@@ -172,6 +172,14 @@ class ResNet(torchvision.models.resnet.ResNet):
 
 class ClientModel(ResNet):    
     def __init__(self, lr:float, num_classes:int, device:int=0):
-        super().__init__(self, BasicBlock, [3, 3, 3], num_classes, groups=2, norm_layer="gn")
+        super().__init__(BasicBlock, [3, 3, 3], num_classes, groups=2, norm_layer="gn")
         self.lr = lr
         self.device = device
+
+if __name__ == "__main__":
+    from torchsummary import summary
+
+    params = (0.1, 100, 1)
+    cm = ClientModel(*params)
+    summary(cm, (3, 32, 32), device="cpu")
+    pass
