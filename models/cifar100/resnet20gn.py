@@ -2,7 +2,7 @@ import torch
 import torchvision
 import torch.nn as nn
 from typing import Optional, Type, Union
-from torchvision.models.resnet import BasicBlock, Bottleneck, conv3x3, conv1x1
+from torchvision.models.resnet import conv3x3, conv1x1, Bottleneck
 
 class BasicBlock(torchvision.models.resnet.BasicBlock):
     expansion: int = 1
@@ -55,7 +55,7 @@ class BasicBlock(torchvision.models.resnet.BasicBlock):
         return out
 
 
-class ResNet(torchvision.models.ResNet):
+class ResNet(torchvision.models.resnet.ResNet):
     """ResNet generalization for CIFAR thingies."""
 
     def __init__(self, block, layers, num_classes=10, zero_init_residual=False,
@@ -170,7 +170,8 @@ class ResNet(torchvision.models.ResNet):
         return x
 
 
-class ClientModel(nn.Module):    
+class ClientModel(ResNet):    
     def __init__(self, lr:float, num_classes:int, device:int=0):
-        super(ClientModel, self).__init__()
-        return ResNet(BasicBlock, layers=[3, 3, 3], num_classes=num_classes, norm_layer="gn", groups=2)
+        super().__init__(self, BasicBlock, [3, 3, 3], num_classes, groups=2, norm_layer="gn")
+        self.lr = lr
+        self.device = device
