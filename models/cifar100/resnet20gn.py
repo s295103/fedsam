@@ -175,11 +175,10 @@ class ClientModel(ResNet):
         super().__init__(BasicBlock, [3, 3, 3], num_classes, groups=2, norm_layer="gn")
         self.lr = lr
         self.device = device
+        self.size = self.model_size()
 
-# if __name__ == "__main__":
-#     from torchsummary import summary
-
-#     params = (0.1, 100, 1)
-#     cm = ClientModel(*params)
-#     summary(cm, (3, 32, 32), device="cpu")
-#     pass
+    def model_size(self):
+        tot_size = 0
+        for param in self.parameters():
+            tot_size += param.size()[0]
+        return tot_size
