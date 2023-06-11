@@ -1,81 +1,176 @@
+import torch
+import torchvision
 import torch.nn as nn
-from torch import Tensor
+from typing import Optional, Type, Union
+from torchvision.models.resnet import BasicBlock, Bottleneck, conv3x3, conv1x1
 
-LAYERS = [3, 3, 3]
-GROUPS = 2
+class BasicBlock(torchvision.models.resnet.BasicBlock):
+    expansion: int = 1
 
-# 3x3 convolution
-def conv3x3(in_channels, out_channels, stride=1):
-    return nn.Conv2d(in_channels, out_channels, kernel_size=3, 
-                     stride=stride, padding=1, bias=False)
-
-# Residual block
-class ResidualBlock(nn.Module):
-    def __init__(self, in_channels, out_channels, stride=1, downsample=None, groups=2):
-        super(ResidualBlock, self).__init__()
-        self.conv1 = conv3x3(in_channels, out_channels, stride)
-        self.bn1 = nn.GroupNorm(groups, out_channels)
+    def __init__(
+        self,
+        inplanes: int,
+        planes: int,
+        stride: int = 1,
+        downsample: Optional[nn.Module] = None,
+        groups: int = 1,
+        base_width: int = 64,
+        dilation: int = 1,
+        norm_layer: str=None,
+    ) -> None:
+        super(torchvision.models.resnet.BasicBlock, self).__init__()
+        if norm_layer == "bn":
+            self.bn1 = nn.BatchNorm2d(planes)
+            self.bn2 = nn.BatchNorm2d(planes)
+        else:
+            self.bn1 = nn.GroupNorm(groups, planes)
+            self.bn2 = nn.GroupNorm(groups, planes)
+        if base_width != 64:
+            raise ValueError("BasicBlock only supports base_width=64")
+        if dilation > 1:
+            raise NotImplementedError("Dilation > 1 not supported in BasicBlock")
+        # Both self.conv1 and self.downsample layers downsample the input when stride != 1
+        self.conv1 = conv3x3(inplanes, planes, stride)
         self.relu = nn.ReLU(inplace=True)
-        self.conv2 = conv3x3(out_channels, out_channels)
-        self.bn2 = nn.GroupNorm(groups, out_channels)
+        self.conv2 = conv3x3(planes, planes)
         self.downsample = downsample
+        self.stride = stride
 
-    def forward(self, x):
-        residual = x
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
+        identity = x
+
         out = self.conv1(x)
         out = self.bn1(out)
         out = self.relu(out)
+
         out = self.conv2(out)
         out = self.bn2(out)
-        if self.downsample:
-            residual = self.downsample(x)
-        out += residual
+
+        if self.downsample is not None:
+            identity = self.downsample(x)
+
+        out += identity
         out = self.relu(out)
+
         return out
+
+
+class ResNet(torchvision.models.ResNet):
+    """ResNet generalization for CIFAR thingies."""
+
+    def __init__(self, block, layers, num_classes=10, zero_init_residual=False,
+                 groups=1, base_width=64, replace_stride_with_dilation=None,
+                 norm_layer=None, strides=[1, 2, 2, 2], pool='avg'):
+        """Initialize as usual. Layers and strides are scriptable."""
+        super(torchvision.models.ResNet, self).__init__()  # nn.Module
+
+        self.dilation = 1
+        if replace_stride_with_dilation is None:
+            # each element in the tuple indicates if we should replace
+            # the 2x2 stride with a dilated convolution instead
+            replace_stride_with_dilation = [False, False, False, False]
+        if len(replace_stride_with_dilation) != 4:
+            raise ValueError("replace_stride_with_dilation should be None "
+                             "or a 4-element tuple, got {}".format(replace_stride_with_dilation))
+        self._norm_layer = norm_layer if norm_layer is not None else "bn"
+        self.groups = groups
+
+        self.inplanes = base_width
+        if self._norm_layer == "bn":
+                self.bn1 = nn.BatchNorm2d(self.inplanes)
+        else:
+            self.bn1 = nn.GroupNorm(self.groups, self.inplanes)
+
+        self.base_width = 64  # Do this to circumvent BasicBlock errors. The value is not actually used.
+        self.conv1 = nn.Conv2d(3, self.inplanes, kernel_size=3, stride=1, padding=1, bias=False)
+        self.relu = nn.ReLU(inplace=True)
+
+        self.layers = nn.ModuleList()
+        width = self.inplanes
+        for idx, layer in enumerate(layers):
+            self.layers.append(self._make_layer(block, width, layer, stride=strides[idx], dilate=replace_stride_with_dilation[idx]))
+            width *= 2
+
+        self.pool = nn.AdaptiveAvgPool2d((1, 1)) if pool == 'avg' else nn.AdaptiveMaxPool2d((1, 1))
+        self.fc = nn.Linear(width // 2 * block.expansion, num_classes)
+
+        for m in self.modules():
+            if isinstance(m, nn.Conv2d):
+                nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
+            elif isinstance(m, (nn.BatchNorm2d, nn.GroupNorm)):
+                nn.init.constant_(m.weight, 1)
+                nn.init.constant_(m.bias, 0)
+
+        # Zero-initialize the last BN in each residual branch,
+        # so that the residual branch starts with zeros, and each residual block behaves like an identity.
+        # This improves the model by 0.2~0.3% according to https://arxiv.org/abs/1706.02677
+        if zero_init_residual:
+            for m in self.modules():
+                if isinstance(m, torchvision.models.resnet.Bottleneck):
+                    nn.init.constant_(m.bn3.weight, 0)
+                elif isinstance(m, BasicBlock):
+                    nn.init.constant_(m.bn2.weight, 0)
+
+
+    def _make_layer(
+        self,
+        block: Type[Union[BasicBlock, Bottleneck]],
+        planes: int,
+        blocks: int,
+        stride: int = 1,
+        dilate: bool = False,
+    ) -> nn.Sequential:
+        norm_layer = self._norm_layer
+        downsample = None
+        previous_dilation = self.dilation
+        if dilate:
+            self.dilation *= stride
+            stride = 1
+        if stride != 1 or self.inplanes != planes * block.expansion:
+            downsample = nn.Sequential(
+                conv1x1(self.inplanes, planes * block.expansion, stride),
+                nn.BatchNorm2d(planes * block.expansion) if self._norm_layer == "bn" else nn.GroupNorm(self.groups, planes * block.expansion),
+            )
+
+        layers = []
+        layers.append(
+            block(
+                self.inplanes, planes, stride, downsample, self.groups, self.base_width, previous_dilation, norm_layer
+            )
+        )
+        self.inplanes = planes * block.expansion
+        for _ in range(1, blocks):
+            layers.append(
+                block(
+                    self.inplanes,
+                    planes,
+                    groups=self.groups,
+                    base_width=self.base_width,
+                    dilation=self.dilation,
+                    norm_layer=norm_layer,
+                )
+            )
+
+        return nn.Sequential(*layers)
+        
+
+    def _forward_impl(self, x):
+        # See note [TorchScript super()]
+        x = self.conv1(x)
+        x = self.bn1(x)
+        x = self.relu(x)
+
+        for layer in self.layers:
+            x = layer(x)
+
+        x = self.pool(x)
+        x = torch.flatten(x, 1)
+        x = self.fc(x)
+
+        return x
+
 
 class ClientModel(nn.Module):    
     def __init__(self, lr:float, num_classes:int, device:int=0):
         super(ClientModel, self).__init__()
-        self.groups = GROUPS
-        self.in_channels = 16
-        self.device = device
-        self.conv = conv3x3(3, 16)
-        self.bn = nn.GroupNorm(self.groups, 16)
-        self.relu = nn.ReLU(inplace=True)
-        self.layer1 = self.make_layer(16, LAYERS[0])
-        self.layer2 = self.make_layer(32, LAYERS[1], 2)
-        self.layer3 = self.make_layer(64, LAYERS[2], 2)
-        self.avg_pool = nn.AvgPool2d(8)
-        self.fc = nn.Linear(64, num_classes)
-        self.size = self.model_size()
-
-    def make_layer(self, out_channels, blocks, stride=1):
-        downsample = None
-        if (stride != 1) or (self.in_channels != out_channels):
-            downsample = nn.Sequential(
-                conv3x3(self.in_channels, out_channels, stride=stride),
-                nn.GroupNorm(self.groups, out_channels))
-        layers = []
-        layers.append(ResidualBlock(self.in_channels, out_channels, stride, downsample, self.groups))
-        self.in_channels = out_channels
-        for i in range(1, blocks):
-            layers.append(ResidualBlock(out_channels, out_channels, 1, None, self.groups))
-        return nn.Sequential(*layers)
-
-    def forward(self, x):
-        out = self.conv(x)
-        out = self.bn(out)
-        out = self.relu(out)
-        out = self.layer1(out)
-        out = self.layer2(out)
-        out = self.layer3(out)
-        out = self.avg_pool(out)
-        out = out.view(out.size(0), -1)
-        out = self.fc(out)
-        return out
-
-    def model_size(self):
-        tot_size = 0
-        for param in self.parameters():
-            tot_size += param.size()[0]
-        return tot_size
+        return ResNet(BasicBlock, layers=[3, 3, 3], num_classes=num_classes, norm_layer="gn", groups=2)
