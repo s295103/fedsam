@@ -176,10 +176,10 @@ class ClientModel(ResNet):
         self.lr = lr
         self.device = device
 
-if __name__ == "__main__":
-    from torchsummary import summary
+# if __name__ == "__main__":
+#     from torchsummary import summary
 
-    params = (0.1, 100, 1)
-    cm = ClientModel(*params)
-    summary(cm, (3, 32, 32), device="cpu")
-    pass
+#     params = (0.1, 100, 1)
+#     cm = ClientModel(*params)
+#     summary(cm, (3, 32, 32), device="cpu")
+#     pass
